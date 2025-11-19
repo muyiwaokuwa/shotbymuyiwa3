@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | ShotByMuyiwa</title>
+    <link rel="stylesheet" href="shotbymuyiwa.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">SHOTBYMUYIWA</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-form">
+        <h2>Book a Session</h2>
+        <p>Fill out the form below to inquire about your upcoming project or event.</p>
+
+        <form action="https://webdevbasics.net/scripts/javajam8.php" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="date"> Desired Project Date:</label>
+            <input type="date" id="date" name="date" min="2025-11-11" required>
+
+
+            <label for="notes">Project Details</label>
+            <textarea id="notes" name="notes" rows="5" placeholder="Tell us about your project..."></textarea>
+
+            <input type="submit" value="Submit Inquiry">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 ShotByMuyiwa | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
